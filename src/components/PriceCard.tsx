@@ -4,7 +4,7 @@ import { PriceData } from "../customTypes/PriceData";
 
 export default function PriceCard({ priceData }: { priceData: PriceData}) {
   return (
-    <div className="max-w-sm xl:w-[350px] p-6 bg-gray-100 group h-full rounded-2xl lg:hover:-translate-y-6 ease-in duration-300 hover:bg-pink-800 hover:text-white border border-gray-100 xl:border-none shadow-md">
+    <div className="w-full p-6 bg-gray-100 group h-full rounded-2xl lg:hover:-translate-y-6 ease-in duration-300 hover:bg-pink-800 hover:text-white border border-gray-100 xl:border-none shadow-md">
               <div className="flex flex-row gap-3 items-center">
                 <div>
                   <ImPriceTags className="text-2xl" />
