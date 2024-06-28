@@ -1,0 +1,43 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Adjust width as needed */
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    to bottom,
+    black,
+    #6c1035,
+    #9c174c ,
+    #9c174c ,
+    #6c1035,
+    black
+  );
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black;
+
+  border-radius: 2px;
+  background-clip: content-box;
+}
+
+/* For Firefox */
+html {
+  scrollbar-width: 12px;
+  scrollbar-color: rgba(255, 255, 255, 0.5)
+    linear-gradient(
+      to bottom,
+      black,
+      #6c1035,
+      #9c174c ,
+      #9c174c ,
+      #6c1035,
+      black
+    );
+}
+
+/* For Internet Explorer and Edge */
+body {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}

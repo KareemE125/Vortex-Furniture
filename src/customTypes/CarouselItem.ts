@@ -1,0 +1,1 @@
+export type CarouselItems = { images: string[], descriptions: {title:string, text:string}[], captions: string[] }
