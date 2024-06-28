@@ -110,7 +110,7 @@ export default function Navbar() {
                     <NavbarLink 
                       path={link.path} 
                       title={link.name} 
-                      isSelected={link.name === selected}
+                      isSelected={link.path.slice(1) === selected}
                       clickHandler={setSelected}
                     />
                   </li>

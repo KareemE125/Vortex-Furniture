@@ -10,8 +10,8 @@ export default function NavbarLink({path, title, isSelected, clickHandler}: Navb
   return (
     <a
         href={path} 
-        className={`px-4 py-1 rounded-lg text-lg text-center font-semibold text-white flex justify-center items-center transition-all duration-500
-                    ${isSelected? "bg-white text-gray-900" : " hover:bg-white hover:text-gray-900"} `}
+        className={`px-4 py-1 rounded-lg text-lg text-center font-semibold flex justify-center items-center transition-all duration-500
+                    ${isSelected? "bg-white text-gray-900" : "text-white hover:bg-white hover:text-gray-900"} `}
         onClick={() => clickHandler(title)}
     >
       {title}
