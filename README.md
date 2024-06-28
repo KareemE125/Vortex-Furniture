@@ -1,5 +1,11 @@
-# React + TypeScript + Vite
+# Vortex Furniture
 
+## Visit Here 👉 https://vortex-furniture.vercel.app/
+
+## Screenshots
+![screencapture-localhost-5173-2024-06-28-23_27_11](https://github.com/KareemE125/Vortex-Furniture/assets/61433385/71befdcd-0edf-4df7-b112-b9eef1b27997)
+
+## React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
